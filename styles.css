@@ -51,6 +51,12 @@ table, th, td {
     border: 1px solid #ccc;
 }
 
+img {
+    width: 600px; 
+    height: 450px; 
+}
+
+
 th, td {
     padding: 10px;
     text-align: left;
