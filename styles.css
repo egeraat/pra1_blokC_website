@@ -57,6 +57,13 @@ img {
 }
 
 
+.logo {
+    width: 300px; /* Pas de breedte aan zoals gewenst */
+    height: auto; /* Zorg ervoor dat de hoogte automatisch wordt geschaald om de verhoudingen te behouden */
+}
+
+
+
 th, td {
     padding: 10px;
     text-align: left;
@@ -67,7 +74,7 @@ th {
     color: #fff;
 }
 
-.smoelenboek {
+.docenten {
     width: 100px;
     height: auto;
     border-radius: 50%;
