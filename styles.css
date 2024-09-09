@@ -20,6 +20,7 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+
 }
 
 header h1 {
@@ -94,12 +95,41 @@ th {
 
 footer {
     background-color: #e60012; /* Rood */
-    color: #fff;
+    color: #ffffff;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     position: fixed;
     width: 100%;
     bottom: 0;
     outline: auto;
 
+}
+
+/* Voor schermen kleiner dan 600px (bijvoorbeeld smartphones) */
+@media (max-width: 600px) {
+    header, footer {
+        padding: 5px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table {
+        font-size: 14px; /* Maak de tekst in tabellen iets kleiner */
+    }
 }
